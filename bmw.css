@@ -1,0 +1,439 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: black */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    /* border-bottom: 2px solid black; */
+    width: 88%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid white;
+
+}
+.section{
+    /* border: 1px solid black; */
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}
+.main{
+    /* border: 2px solid; */
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.nav{
+    /* border-bottom: 1px solid red; */
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#nav1{
+    /* padding-left: 100px; */
+    width: 800px;
+    /* margin-right: 400px; */
+    
+}
+#nav2{
+    width: 200px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+    
+}
+.home:hover{
+    border-bottom: 3px solid rgb(18, 156, 231);
+}
+
+.home{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    
+
+
+}
+.icons{
+    /* border: 1px solid; */
+    height: 40px;
+    font-size: 25px;
+}
+.card{
+    /* border: 2px solid white; */
+    width: 500px;
+    height:400px;
+    margin-top: 120px;
+    margin-left:100px ;
+    color: white;
+    justify-content: space-around;
+    
+}
+#five1{
+    /* border: 2px solid white; */
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#five2{
+    /* margin-top: px; */
+    font-size:200px;
+    /* border: 2px solid white; */
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#five3{
+    font-size: 25px;
+    /* font-family: ; */
+}
+#five4{
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+#five5{
+    font-size: 55px;
+}
+.r{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+}
+.phone{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    left: 1300px;
+    top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+}
+video{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+.title{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background-color: white;
+}
+#car1{
+    /* border: 2px solid red; */
+    height: 45vh;
+}
+.heading{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+.find{
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid blue; */
+    width: 400px;
+    height: 30vh;
+}
+.cars{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:40vh ;
+    
+}
+.new{
+    /* border: 1px solid black; */
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+    height: fit-content;
+    font-size: 35px;
+    height: 65px;
+    
+}
+.button input{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border-color: gray;
+    
+}
+.bu:hover{
+    border-color: 3px solid gray;
+}
+#room2{
+    height: 60vh;
+    background-image: url(bmw2.jpg);
+    background-size: cover;
+}
+
+.home3{
+    height: 60vh;
+    width: 100%;
+    margin-top: 100px;
+    color: white;
+    
+    
+}
+.info{
+    /* border: 2px solid red; */
+    position: relative;
+    top:200px;
+    left:100px;
+    width: 500px;
+    height: 200px;
+    font-size: 40px;
+    /* font-style: italic; */
+}
+#discover1{
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+#discover1:hover{
+    border: 2px solid white ;
+    cursor: pointer;
+}
+.t{
+    height: 50px;
+
+}
+.t{
+    width: 100%;
+    height: 20px;
+}
+.ixo{
+    /* border: 2px solid red; */
+    height: 60vh;
+    background-image: url("bmw3.webp");
+    background-size: cover;
+}
+.now{
+    /* border: 2px solid red; */
+    position: relative;
+    top:300px;
+    left:100px;
+    width: 500px;
+    height: 200px;
+    font-size: 40px;
+    /* font-style: italic; */
+    color: white;
+}
+.u{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.joy{
+    /* border: 2px solid red; */
+    height: 70vh;
+    background-image: url("bmw\ 3.webp");
+    background-size: cover;
+}
+.cari{
+    /* border: 2px solid red; */
+    align-items: center;
+    position: relative;
+    top:280px;
+    left:100px;
+    width: 800px;
+    height: fit-content;
+    font-size: 30px;
+    /* font-style: italic; */
+    color: white;
+}
+.joy{
+    justify-content: center;
+    align-items: center;
+}
+#cari1{
+    height: 50px;
+    
+}
+#cari2{
+    height: 30px;
+    font-size: 25px;
+}
+#cari3{
+    height: 50px;
+    font-size: 25px;
+}
+.bike{
+    /* border: 2px solid red; */
+    height: 60vh;
+    background-image: url("homepage-specialoffers.jpeg");
+    background-size: cover;
+    width: 700px;
+    background-size: cover;
+    position: absolute;
+    left: 100px;
+}
+.offer{
+    /* border: 2px solid red; */
+    align-items: center;
+    position: relative;
+    top:150px;
+    left:800px;
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    /* font-style: italic; */
+    color: black;
+}
+#offer2{
+    font-size: 20px;
+    height: 50px;
+}
+#offer1{
+    height: 50px;
+}
+#offer3{
+    height: 30px;
+    font-size: 20px;
+}
+#offer4{
+    height: 10px;
+    font-size: 20px;
+}
+#offer4:hover{
+    color: rgb(20, 202, 234);
+    cursor: pointer;
+}
+.o{
+    height: 100px;
+}
+
+
+/* footer section */
+
+
+
+.d1{
+    width: 150px;
+    height: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.pf1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.d2{
+    width: fit-content;
+    height: 10px;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.pf2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-bottom: 55px;
+
+}
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 20px 50px;
+}
+
+.footer .footer-container {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer-column a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-bottom .social-icons {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer-bottom .social-icons a {
+    color: #333;
+    text-decoration: none;
+
+}
